@@ -7,8 +7,7 @@ const app = Express();
 
 const client = new Discord.Client();
 
-//client.login('ODQ3MjI1ODk5MjQ5MTcyNDgw.YK6-mw.srlHsoUkfj1Nse-cdPAm85OB68w');
-client.login(process.env.DISCORD_TOKEN);
+client.login("Token");
 
 client.usuarios = new Enmap("usuarios");
 
